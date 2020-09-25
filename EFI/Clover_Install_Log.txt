@@ -1,0 +1,46 @@
+
+Clover EFI installer log - Fri Sep 25 04:54:12 PDT 2020
+Installer version: r5122 (commit: f4e10b1a2) EFI bootloader
+======================================================
+/dev/disk0 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *42.9 GB    disk0
+   1:                        EFI EFI                     209.7 MB   disk0s1
+   2:                 Apple_APFS Container disk1         42.7 GB    disk0s2
+
+/dev/disk1 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +42.7 GB    disk1
+                                 Physical Store disk0s2
+   1:                APFS Volume MacOS Mojave            31.5 GB    disk1s1
+   2:                APFS Volume Preboot                 45.3 MB    disk1s2
+   3:                APFS Volume Recovery                522.9 MB   disk1s3
+   4:                APFS Volume VM                      20.5 KB    disk1s4
+
+/dev/disk2 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:        CD_partition_scheme                        *4.1 MB     disk2
+   1:     Apple_partition_scheme                         3.6 MB     disk2s0
+   2:        Apple_partition_map                         32.3 KB    disk2s0s1
+   3:                  Apple_HFS VMware Tools            3.5 MB     disk2s0s2
+
+/dev/disk4 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:     FDisk_partition_scheme                        *15.6 GB    disk4
+   1:                 DOS_FAT_32 CLOVER EFI              209.7 MB   disk4s1
+   2:                  Apple_HFS Install macOS Catalina  15.3 GB    disk4s2
+
+======================================================
+Backing up EFI files
+
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /Volumes/CLOVER EFI
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /Volumes/CLOVER EFI
+
+Theme 'Clovy' (defined in config.plist) not found !
+Using default theme 'random'
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================
